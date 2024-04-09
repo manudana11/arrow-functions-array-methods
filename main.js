@@ -291,8 +291,8 @@ const sentenceElements = [
     'javascript'
     ];
 
-const nombre = 'Manu';
-sentenceElements[2] = nombre;
+// const nombre = 'Manu';
+sentenceElements[2] = 'Manu';
 
 const frasecita = sentenceElements.reduce((a, b, c) => {
   c = ' ';
